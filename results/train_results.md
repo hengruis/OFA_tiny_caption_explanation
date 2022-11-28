@@ -2,7 +2,9 @@
 
 ## Training
 
-training dataset split 0 (390, 6):
+### Split 0
+
+training:
 
 |Epoch|loss|nll_loss|ntokens|nsentences|sample_size|ppl_ny|ppl|wps|ups|wpb|bsz|num_updates|lr|gnorm|clip|loss_scale|train_wall|gb_free|wall|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -17,7 +19,7 @@ training dataset split 0 (390, 6):
 |009|4.821|4.821|4282.71|55.714|4282.71|0|28.28|174.4|0.04|4282.7|55.7|57|9.85e-06|3.931|100|2|128|2|2310|
 |010|4.771|4.771|4282.71|55.714|4282.71|0|27.31|656.8|0.15|4282.7|55.7|64|4.55e-06|3.297|100|2|37|2|2356|
 
-validation dataset split 0 (130, 6):
+validation:
 
 |Epoch|loss|nll_loss|ntokens|nsentences|sample_size|ppl_ny|ppl|wps|wpb|bsz|num_updates|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -31,6 +33,24 @@ validation dataset split 0 (130, 6):
 |008|4.738|4.738|579.118|7.647|579.118|500.153|26.68|295|579.1|7.6|50|
 |009|4.719|4.719|579.118|7.647|579.118|485.999|26.34|362.3|579.1|7.6|57|
 |010|4.71|4.71|579.118|7.647|579.118|479.295|26.17|3097.5|579.1|7.6|64|
+
+### Split 1
+
+training:
+|Epoch|loss|nll_loss|ntokens|nsentences|sample_size|ppl_ny|ppl|wps|ups|wpb|bsz|num_updates|lr|gnorm|clip|loss_scale|train_wall|gb_free|wall|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|001|7.141|5.964|1200|16|1200|0|62.43|0|0|1200|16|1|1.25e-05|34.954|100|2|28|1.8|38|
+|002|
+|003|
+|004|
+|005|
+|006|
+|007|
+|008|
+|009|
+|010|
+
+validation:
 
 ## dataset size
 
